@@ -7,6 +7,9 @@ AOS.init();
 export const Krishna = () => {
     return (
         <>
+            <div className='w-full h-full'>
+
+
             <div id='home' className='w-full h-180 z-0 px-20' data-aos="fade-up">
                 <div className='flex mt-100 justify-between'>
                     <div className='flex flex-col'>
@@ -342,6 +345,8 @@ Youtube</a>
 
 
             </div>
+            </div>
+            
 
 
         </>

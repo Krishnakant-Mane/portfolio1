@@ -1,0 +1,52 @@
+.coursel{
+    margin: 1rem;
+    border: 5px solid red;
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+.coursel::-webkit-scrollbar{
+    display: none;
+}
+
+.group{
+    display: flex;
+    gap: 1rem;
+    animation: spin 10s infinite linear reverse;
+}
+
+.group:hover{
+    animation-play-state: paused;
+}
+
+.group1{
+    display: flex;
+    gap: 1rem;
+    animation: spin 10s infinite linear ;
+}
+
+.group1:hover{
+    animation-play-state: paused;
+}
+
+.card{
+    flex: 0 0 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    width: 10rem;
+    border: solid black;
+    border-radius: 3rem;
+    transition: transform 0.3s ease;
+}
+
+.card:hover{
+    transform: scale(1);
+}
+
+@keyframes spin {
+    from {transform: translateX(0);}
+    to {transform: translateX(-50%);}
+}
