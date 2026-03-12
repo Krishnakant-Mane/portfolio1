@@ -16,6 +16,7 @@ function App() {
       {/* <MagneticCursor />
 
       <Magnetic>
+      
         <button data-cursor="magnetic" className=" hover:bg-white hover:text-black border border-black px-6 py-3 bg-black text-white rounded-xl">
           Hover Me
         </button>
